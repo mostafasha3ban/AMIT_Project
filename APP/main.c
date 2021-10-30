@@ -20,7 +20,7 @@ int main(void)
 	u32 i = 0;
     while(1)
     {		if(i%10==0)
-			BUZZER_ONCE(); /// turn on buzzer once if 10 seconds pass
+			BUZZER_ONCE(); // turn on buzzer once if 10 seconds pass
 		LCD_WRITE_INT(i);
 		_delay_ms(1000);
 		LCD_CLR();
